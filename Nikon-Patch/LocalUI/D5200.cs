@@ -160,10 +160,10 @@
                            };
 
         Patch[] patch_liveview_no_timeout_15m = {
-                                                    new Patch(1,0x95B4, new byte[]{0xA0, 0xBB, 0x0D, 0x00}, new byte[] {0x80, 0x27, 0xCB, 0x05} ),
-                                                    new Patch(1,0xCEB8, new byte[]{0xA0, 0xBB, 0x0D, 0x00}, new byte[] {0x80, 0x27, 0xCB, 0x05} ),
-                                                    new Patch(1,0x27877C, new byte[]{0xA0, 0xBB, 0x0D, 0x00}, new byte[] {0x80, 0x27, 0xCB, 0x05} ),
-                                                };
+                                                     new Patch(1, 0x1952D6, new byte[] { 0xE2, 0x16 }, new byte[] { 0xE1, 0x16 }), // 1/3
+                                                     new Patch(1, 0x197DBC, new byte[] { 0xE2, 0x0F }, new byte[] { 0xE1, 0x0F }), // 1/3
+                                                     new Patch(1, 0x1980C4, new byte[] { 0xE3, 0x14 }, new byte[] { 0xE0, 0x14 }), // 1/3  
+                                                                             };
 
         //Patch[] patch_liveview_no_timeout_15m_b = {
         //                                            new Patch(1,0x95B4, Sys.BigDwords(900000), Sys.BigDwords(10800000) ),
